@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* background-color: aqua; */
+
+}
+
+nav {
+    background-color: rgb(17, 185, 194);
+    width: 15%;
+    height: 100vh;
+}
+
+#cont {
+    list-style: none;
+    /* background-color: aqua; */
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    color: white;
+    background-color: rgb(21, 212, 50);
+
+}
+
+a:hover {
+    background-color: pink;
+    color: black;
+}
+
+/* -----------below li drop down----------
+#menu{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(142, 175, 145);
+    position: relative;
+    display: none;
+} */
+
+/* -------right side dropdown--------- */
+
+#menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(142, 175, 145);
+    position: absolute;
+    display: none;
+    top: 0%;
+    left: 100%;
+}
+
+#drop {
+    position: relative;
+}
+
+#drop:hover #menu {
+    display: block;
+}
+
+#vg-menu {
+    background-color: aqua;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    display: none;
+    top: 0%;
+    left: 100%;
+}
+
+#vg-drop {
+    position: relative;
+}
+
+#vg-drop:hover #vg-menu {
+    display: block;
+}
+
+#lch-drop{
+    position: relative;
+}
+#l{
+    background-color: aqua;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    display: none;
+    top: 0%;
+    left: 100%; 
+}
+#lch-drop:hover #l{
+    display: block;
+}
+#dn{
+    position: relative;
+}
+#d{
+    background-color: aqua;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    display: none;
+    top: 0%;
+    left: 100%;   
+}
+#dn:hover #d{
+    display: block;
+}
+
+#nvg-menu{
+    background-color: aqua;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    display: none;
+    top: 0%;
+    left: 100%;
+}
+
+#nvg-drop{
+    position: relative;
+}
+
+#nvg-drop:hover #nvg-menu{
+    display: block;
+}
+#nbf{
+    background-color: palevioletred;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    display: none;
+    top: 0%;
+    left: 100%;
+}
+#Nbf{
+    position: relative;
+}
+#Nbf:hover #nbf{
+    display: block;
+}
+#nlh{
+ list-style-type: none;
+ margin: 0;
+ padding:0;
+ background-color: palevioletred;
+ position: absolute;
+ display: none;
+ top: 0%;
+ left: 100%;
+}
+#Nlh{
+    position: relative;
+}
+#Nlh:hover #nlh{
+    display: block;
+}
+#ndr{
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    background-color: palevioletred;
+    position: absolute;
+    display: none;
+    top: 0%;
+    left: 100%;
+}
+#Ndr{
+    position: relative;
+}
+#Ndr:hover #ndr{
+    display: block;
+}
